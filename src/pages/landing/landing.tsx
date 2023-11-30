@@ -5,8 +5,8 @@ const landing = () => {
     return(
         <div className={styles["landing-styled"]}>
             <div className={styles["left-landing"]}>
+                <div className={styles["name"]}>studio</div>
                 <div className={styles["name"]}>sandy</div>
-                <div className={styles["name"]}>nguyen</div>
                 <div className={styles["roles"]}>
                     <div className={styles["role"]}>frontend engineer</div>
                     <div className={styles["role"]}>designer enthusiast</div>
