@@ -1,0 +1,54 @@
+.contact-styled {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.name {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.roles {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.role {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+.email {
+    margin-top: 50px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.social-logo {
+    width: 40px;
+}
