@@ -5,31 +5,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .name {
     color: #000;
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 800;
-}
-
-.roles {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
-
-.role {
-    color: #000;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 10px;
+    line-height: 5px;
 }
 
 .email {

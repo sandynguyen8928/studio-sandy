@@ -5,8 +5,8 @@
     justify-content: space-between;
     min-width: 100vw;
 
-    @media only screen and (max-width: 1100px) {
-        flex-direction: column-reverse;
+    @media only screen and (max-width: 450px) {
+        flex-direction: column;
         justify-content: flex-end;
     }
 }
@@ -24,10 +24,17 @@
         padding: 50px;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         width: 60%;
         gap: 40px;
         padding: 30px;
+    }
+
+    @media only screen and (max-width: 450px){
+        align-items: center;
+        width: revert;
+        min-height: 100vh;
+        justify-content: center;
     }
 }
 
@@ -37,14 +44,13 @@
     font-style: normal;
     font-weight: 800;
     line-height: 25px;
-    font-stretch: ultra-expanded;
 
     @media only screen and (max-width: 1100px) {
         font-size: 80px;
         line-height: 5px;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         font-size: 50px;
     }
 }
@@ -55,8 +61,12 @@
     align-items: flex-start;
     gap: 15px;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         gap: 10px;
+    }
+
+    @media only screen and (max-width: 450px) {
+        align-items: center;
     }
 }
 
@@ -68,12 +78,12 @@
     line-height: 25px;
     text-align: left;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         font-size: 20px;
         line-height: normal;
     }
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 450px) {
         font-size: 16px;
     }
 }
@@ -87,13 +97,20 @@
     align-self: flex-end;
 
     @media only screen and (max-width: 1100px) {
-        width: 80%;
+        width: 50%;
         padding: 50px;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         gap: 50px;
         padding: 30px;
+    }
+
+    @media only screen and (max-width: 450px) {
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        width: revert;
     }
 }
 
@@ -104,13 +121,14 @@
     font-size: 20px;
     font-style: normal;
     line-height: 40px;
-    //font-weight: 500;
-    @media only screen and (max-width: 600px) {
+
+    @media only screen and (max-width: 700px) {
         font-size: 16px;
         line-height: 30px;
     }
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 450px) {
         font-size: 14px;
+        text-align: center;
     }
 }
