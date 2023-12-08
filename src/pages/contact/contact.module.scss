@@ -32,9 +32,16 @@
 .socials {
     display: flex;
     flex-direction: row;
-    gap: 20px
+    gap: 20px;
 }
 
 .social-logo {
     width: 40px;
+    box-shadow: 4px 4px 0 #000000;
+    border-radius: 10px;
+    &:hover {
+        cursor: pointer;
+        box-shadow: none;
+        transform: translate(4px, 4px);
+    }
 }
