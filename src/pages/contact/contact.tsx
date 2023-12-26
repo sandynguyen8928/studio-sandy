@@ -13,6 +13,11 @@ const contact = () => {
                 <a href="https://github.com/sandynguyen8928" target="_blank" rel="noopener noreferrer"><img src={github_logo} className={styles["social-logo"]} alt="github logo"/></a>
                 <a href="https://www.linkedin.com/in/sandynguyen8928/" target="_blank" rel="noopener noreferrer"><img src={linkedin_logo} className={styles["social-logo"]} alt="github logo"/></a>
             </div>
+            <a className={styles["resume"]}
+               href="https://drive.google.com/file/d/18EMTEADOL0doiiMZgccvqgc6UMYQYvOg/view?usp=drive_link"
+               target="_blank" rel="noopener noreferrer">
+                resume
+            </a>
         </div>
     )
 }
